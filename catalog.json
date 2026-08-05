@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T22:05:00+08:00",
+  "updatedAt": "2026-08-06T00:14:00+08:00",
   "items": [
     {
       "id": "xc-virtual",
@@ -54,7 +54,7 @@
       "summary": "支持文生图、图生图、图生视频、AI 修图、封面海报、肖像写真与高分辨率输出。",
       "category": "AI 图片创作",
       "icon": "/apps/inspire-canvas.png",
-      "tags": ["文生图", "图生图", "图生视频", "AI 修图", "封面海报", "iPhone Web"],
+      "tags": ["文生图", "图生图", "图生视频", "AI 修图", "封面海报"],
       "status": "available",
       "featured": false,
       "websiteUrl": "https://www.kufaka.com/shop/XCKEJI/qxqrnr",
