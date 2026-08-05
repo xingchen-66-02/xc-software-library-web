@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-05T22:05:00+08:00",
+  "items": [
+    {
+      "id": "xc-virtual",
+      "name": "XC虚拟",
+      "summary": "Windows 桌面视频工具，提供本地视频虚拟摄像头播放、历史素材管理和 XC 视频创作功能。",
+      "category": "PC 视频工具",
+      "icon": "/apps/xc-virtual.png",
+      "tags": ["Windows", "PC 软件", "虚拟摄像头", "视频素材", "AI 视频创作"],
+      "status": "available",
+      "featured": true,
+      "platforms": {
+        "pc": {
+          "version": "0.3.23",
+          "actionLabel": "下载",
+          "links": {
+            "domestic": "https://api.xcxc.cloud/downloads/xc-virtual/xc-virtual-v0.3.23-local-setup.exe",
+            "github": "https://github.com/xingchen-66-02/xc-virtual-releases/releases/download/v0.3.23/xc-virtual-v0.3.23-local-setup.exe"
+          },
+          "variants": [
+            {
+              "id": "local-setup",
+              "label": "本地版安装程序",
+              "links": {
+                "domestic": "https://api.xcxc.cloud/downloads/xc-virtual/xc-virtual-v0.3.23-local-setup.exe",
+                "github": "https://github.com/xingchen-66-02/xc-virtual-releases/releases/download/v0.3.23/xc-virtual-v0.3.23-local-setup.exe"
+              }
+            },
+            {
+              "id": "cloud-setup",
+              "label": "云端版安装程序",
+              "links": {
+                "domestic": "https://api.xcxc.cloud/downloads/xc-virtual/xc-virtual-v0.3.23-cloud-setup.exe",
+                "github": "https://github.com/xingchen-66-02/xc-virtual-releases/releases/download/v0.3.23/xc-virtual-v0.3.23-cloud-setup.exe"
+              }
+            },
+            {
+              "id": "portable",
+              "label": "本地便携版",
+              "links": {
+                "domestic": "https://api.xcxc.cloud/downloads/xc-virtual/xc-virtual-v0.3.23-portable.exe",
+                "github": "https://github.com/xingchen-66-02/xc-virtual-releases/releases/download/v0.3.23/xc-virtual-v0.3.23-portable.exe"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "inspire-canvas",
+      "name": "最强生图",
+      "summary": "支持文生图、图生图、图生视频、AI 修图、封面海报、肖像写真与高分辨率输出。",
+      "category": "AI 图片创作",
+      "icon": "/apps/inspire-canvas.png",
+      "tags": ["文生图", "图生图", "图生视频", "AI 修图", "封面海报", "iPhone Web"],
+      "status": "available",
+      "featured": false,
+      "websiteUrl": "https://www.kufaka.com/shop/XCKEJI/qxqrnr",
+      "details": "最强生图支持文生图、图生图、图生视频、AI 修图、封面海报、肖像写真风格、商品配图、电影感概念画面和 4K 高清输出，适合经授权的人像编辑、短视频素材和社交媒体视觉创作。图生视频支持 XC1/XC2/XC3、多分辨率、3 至 15 秒和按秒计点；实际效果会受提示词、参考图、分辨率、模型和内容安全规则影响。",
+      "usageNotes": [
+        "iPhone 使用 Safari 打开官方 Web/PWA，可通过共享菜单添加到主屏幕。",
+        "图生图时由用户主动选择 1 至 4 张有权使用的参考图片。",
+        "输入画面描述，选择画幅和分辨率后生成图片。",
+        "图生视频由用户主动选择主图；XC3 多图一致可再选择 1 至 3 张参考图片，视频按模型、分辨率、时长和音频计点。",
+        "付费使用需要输入卡密；刷新或重新打开官方入口即可获得最新版本。"
+      ],
+      "platforms": {
+        "android": {
+          "version": "1.2.9",
+          "actionLabel": "下载",
+          "links": {
+            "domestic": "https://api.xcxc.cloud/downloads/inspire-canvas/inspire-canvas-v1.2.9.apk",
+            "github": "https://github.com/xingchen-66-02/inspire-canvas-releases/releases/download/v1.2.9/inspire-canvas-v1.2.9.apk"
+          }
+        },
+        "ios": {
+          "version": "1.2.9",
+          "distribution": "web-pwa",
+          "actionLabel": "打开 iPhone Web",
+          "links": {
+            "domestic": "https://api.xcxc.cloud/downloads/inspire-canvas-web/current/",
+            "github": "https://xingchen-66-02.github.io/inspire-canvas-web/"
+          }
+        },
+        "web": {
+          "version": "1.2.9",
+          "actionLabel": "打开",
+          "links": {
+            "domestic": "https://api.xcxc.cloud/downloads/inspire-canvas-web/current/",
+            "github": "https://xingchen-66-02.github.io/inspire-canvas-web/"
+          }
+        }
+      }
+    },
+    {
+      "id": "market-radar",
+      "name": "主力雷达",
+      "summary": "面向数字资产行情、资金流和合约行为分析的交易辅助工具，仅提供 GitHub 线路，需 VPN。",
+      "category": "数字资产工具",
+      "icon": "/apps/market-radar.png",
+      "tags": ["数字资产", "合约分析", "资金流", "需 VPN"],
+      "status": "available",
+      "featured": false,
+      "requiresVpn": true,
+      "websiteUrl": "https://www.kufaka.com/shop/XCKEJI/batzqg",
+      "details": "主力雷达用于查看数字资产行情、资金流和交易行为分析结果。当前正式发布源为 GitHub，软件库不会伪造国内下载地址；打开或下载前必须连接 VPN。分析结果仅供决策参考，不构成收益承诺或投资建议。",
+      "usageNotes": [
+        "先连接 VPN，再打开主力雷达 Android 或 iPhone Web 入口。",
+        "Android 当前正式版本为 2.0.0；iPhone 使用 GitHub Pages Web/PWA。",
+        "使用前请核对行情、仓位和风险，勿将单次分析结果视为确定性信号。"
+      ],
+      "platforms": {
+        "android": {
+          "version": "2.0.0",
+          "actionLabel": "下载（需 VPN）",
+          "links": {
+            "github": "https://github.com/xingchen-66-02/market-radar-releases/releases/download/v2.0.0/market-radar-v2.0.0.apk"
+          }
+        },
+        "ios": {
+          "version": "Web",
+          "distribution": "web-pwa",
+          "actionLabel": "打开（需 VPN）",
+          "links": {
+            "github": "https://xingchen-66-02.github.io/market-radar-releases/"
+          }
+        },
+        "web": {
+          "version": "Web",
+          "actionLabel": "打开（需 VPN）",
+          "links": {
+            "github": "https://xingchen-66-02.github.io/market-radar-releases/"
+          }
+        }
+      }
+    }
+  ]
+}
